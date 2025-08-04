@@ -13,7 +13,7 @@
   <script>
     async function send() {
       const input = document.getElementById("user_input").value;
-      const res = await fetch("https://encyclopedia-galactica.onrender.com/query", {
+      const res = await fetch("https://donde sea que la app de flask esté deployeada.com/query", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ user_input: input })
